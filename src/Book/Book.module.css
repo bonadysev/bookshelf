@@ -1,0 +1,30 @@
+.book {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 15px auto;
+    border: 1px solid black;
+    gap: 15px;
+}
+
+.left {
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right {
+    background: lightblue;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    align-self: flex-start;
+}
+
+.imageSide img {
+    width: 100%;
+    max-width: 100px;
+}
